@@ -1,6 +1,6 @@
 import os, re
-from net.corda.test.cordapp.doublespend import DoublespendCorDapp, DoublespendRPCClient
-from net.corda.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.doublespend import DoublespendCorDapp, DoublespendRPCClient
+from net.kioti.test.cordatest import BootstrapTest
 
 class PySysTest(BootstrapTest):
 

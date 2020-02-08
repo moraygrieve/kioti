@@ -1,6 +1,6 @@
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.cordapp.accounts import AccountsCorDapp
-from net.corda.test.cordapp.accounts import AccountsSSHClient
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.accounts import AccountsCorDapp
+from net.kioti.test.cordapp.accounts import AccountsSSHClient
 
 
 class PySysTest(BootstrapTest):

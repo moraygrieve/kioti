@@ -1,5 +1,5 @@
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.cordapp.receiver import ReceiverCorDapp, ReceiverCorDappRPCClient
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.receiver import ReceiverCorDapp, ReceiverCorDappRPCClient
 
 class PySysTest(BootstrapTest):
 

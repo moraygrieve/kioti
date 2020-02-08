@@ -1,5 +1,5 @@
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.cordapp.midstack import MidstackSSHClient, MidstackCorDapp
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.midstack import MidstackSSHClient, MidstackCorDapp
 
 class PySysTest(BootstrapTest):
 

@@ -1,7 +1,7 @@
 import re
 from pysys.constants import INSPECT
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.cordapp.receiver import ReceiverCorDapp, ReceiverCorDappSSHClient
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.receiver import ReceiverCorDapp, ReceiverCorDappSSHClient
 
 class PySysTest(BootstrapTest):
 

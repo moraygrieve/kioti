@@ -1,6 +1,6 @@
 import os, re
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.cordapp.confidentities import ConfidentitiesCorDapp, ConfidentitiesSSHClient
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.confidentities import ConfidentitiesCorDapp, ConfidentitiesSSHClient
 
 class PySysTest(BootstrapTest):
 

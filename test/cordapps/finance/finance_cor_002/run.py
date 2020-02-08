@@ -1,7 +1,7 @@
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.database import Databases
-from net.corda.test.model.node import Notary
-from net.corda.test.cordapp.finance import FinanceCorDapp, FinanceCorDappSSHClient
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.database import Databases
+from net.kioti.test.model.node import Notary
+from net.kioti.test.cordapp.finance import FinanceCorDapp, FinanceCorDappSSHClient
 
 class PySysTest(BootstrapTest):
 

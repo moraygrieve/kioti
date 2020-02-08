@@ -1,5 +1,5 @@
-from net.corda.test.cordatest import NetworkTest
-from net.corda.test.cordapp.finance import FinanceCorDapp, FinanceCorDappRPCClient
+from net.kioti.test.cordatest import NetworkTest
+from net.kioti.test.cordapp.finance import FinanceCorDapp, FinanceCorDappRPCClient
 
 class PySysTest(NetworkTest):
 

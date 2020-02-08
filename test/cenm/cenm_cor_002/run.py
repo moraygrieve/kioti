@@ -1,7 +1,7 @@
 import jks, os
 from pysys.constants import FAILED, PASSED
-from net.corda.test.cenm.pkitool import PKIToolHelper
-from net.corda.test.cenmtest import CENMTest
+from net.kioti.test.cenm.pkitool import PKIToolHelper
+from net.kioti.test.cenmtest import CENMTest
 
 class PySysTest(CENMTest):
 

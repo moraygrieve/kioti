@@ -1,5 +1,5 @@
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.cordapp.finance import FinanceCorDapp, FinanceCorDappSSHClient
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.finance import FinanceCorDapp, FinanceCorDappSSHClient
 
 class PySysTest(BootstrapTest):
 

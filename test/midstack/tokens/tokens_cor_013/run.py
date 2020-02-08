@@ -1,7 +1,7 @@
 import re, os
 from pysys.constants import INSPECT
-from net.corda.test.cordatest import BootstrapTest
-from net.corda.test.cordapp.tokens import TokensCorDapp, TokensSSHClient
+from net.kioti.test.cordatest import BootstrapTest
+from net.kioti.test.cordapp.tokens import TokensCorDapp, TokensSSHClient
 
 class PySysTest(BootstrapTest):
 

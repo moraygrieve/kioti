@@ -1,6 +1,6 @@
-from net.corda.test.cordatest import NetworkTest
-from net.corda.test.database import Databases
-from net.corda.test.cordapp.tokens import TokensCorDapp, TokensSSHClient
+from net.kioti.test.cordatest import NetworkTest
+from net.kioti.test.database import Databases
+from net.kioti.test.cordapp.tokens import TokensCorDapp, TokensSSHClient
 
 class PySysTest(NetworkTest):
 
