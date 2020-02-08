@@ -10,7 +10,7 @@
 	<property name="JAVA" value="${env.DEFAULT_CORDA_JAVA}/bin/java" default="/usr/bin/java"/>
 	<property name="CORDA_ARTIFACTORY_USERNAME" value="${env.CORDA_ARTIFACTORY_USERNAME}"/>
 	<property name="CORDA_ARTIFACTORY_PASSWORD" value="${env.CORDA_ARTIFACTORY_PASSWORD}"/>
-	<property name="CORDAPPS_DIR" value="${env.CORDAPPS_DIR}"  default="${testRootDir}/../production-qa-cordapps"/>
+	<property name="CORDAPPS_DIR" value="${env.CORDAPPS_DIR}"  default="${testRootDir}/../kioti-cordapps"/>
 	<property name="DYLD_LIBRARY_PATH" value="${env.DYLD_LIBRARY_PATH}" default="/Users/moraygrieve/Applications/oracle/instantclient_12_2"/>
 
 	<property name="defaultAbortOnError" value="true"/>
