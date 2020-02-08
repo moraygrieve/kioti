@@ -1,6 +1,6 @@
 # Introduction
 
-This project is used to black-box test local networks of nodes using the [PySys test framework](https://github.com/pysys-test/pysys-test).
+This project is used to black-box test local networks of Corda nodes using the [PySys test framework](https://github.com/pysys-test/pysys-test).
 PySys is an easy-to-use cross-platform test framework, providing a package of utility methods for process orchestration,
 testcase management, concurrent testcase execution, and testcase validation. PySys is written in Python, and is supported
 on both Python 2.7 and above. See the [PySys User Guide](https://github.com/pysys-test/pysys-test/blob/master/USERGUIDE.rst) for more details.
