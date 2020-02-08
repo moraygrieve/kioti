@@ -1,16 +1,14 @@
 # Introduction
 
-This project is used to black-box test local networks of nodes using the [PySys System test Framework](https://github.com/pysys-test/pysys-test).
+This project is used to black-box test local networks of nodes using the [PySys test framework](https://github.com/pysys-test/pysys-test).
 PySys is an easy-to-use cross-platform test framework, providing a package of utility methods for process orchestration,
 testcase management, concurrent testcase execution, and testcase validation. PySys is written in Python, and is supported
 on both Python 2.7 and above. See the [PySys User Guide](https://github.com/pysys-test/pysys-test/blob/master/USERGUIDE.rst) for more details.
 
-The tests run in the same manner as the [Behave framework](https://github.com/corda/behave), i.e. they download specific versions of the Corda jars from 
-artifactory into a staging area, and can use external CENM environments (TestNet, Daywatch and Nightwatch), or run locally 
-bootstrapped networks. Test CorDapps used are built from the [production-qa-cordapps](https://github.com/corda/production-qa-cordapps) 
-repository. The repo is assumed by default to be cloned in the same parent directory and the CorDapps built as described in the 
-project [README](https://github.com/corda/production-qa-cordapps/blob/master/README.md). This will be changed in the near future so that test 
-CorDapps are downloaded from Artifactory.
+The tests download specific versions of the Corda jars from artifactory into a staging area, and can use external CENM environments 
+or run locally bootstrapped networks. Test CorDapps used are built from the [kioti-cordapps](https://github.com/moray/kioti-cordapps) 
+repository. The repo is assumed by default to be cloned in the same parent directory and the CorDapps built as described in the project 
+[README](https://github.com/moraygrieve/kioti-cordapps/blob/master/README.md).
 
 
 # Dependencies
@@ -68,11 +66,6 @@ DOCKER_USERNAME            -> username for docker
 DOCKER_PASSWORD            -> password for docker
 JAVA_HOME                  -> location of JDK 8
 ```
-
-## Firewall rules
-
-If running against external networks such as DayWatch, ports 12000 to 12999 must be open on the host machine for outside connections for
-components in the external Corda network to communicate with Corda nodes started in each test.
 
 
 # Setting up your IDEA
