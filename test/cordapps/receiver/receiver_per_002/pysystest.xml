@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+  
+  <description> 
+    <title>ReceiveFlow - check latency of single initiateFlow and receive, using repeated RPC calls</title>
+    <purpose><![CDATA[
+In this test we perform a single initiateFlow and receive call, however we drive it multiple
+times via RPC. The aim is to see if the initiateFlow and receive calls are optimised after
+the first instantiation, even when driven from separate RPC invokations.
+]]>
+    </purpose>
+  </description>
+  
+  <classification>
+    <groups inherit="true">
+      <group>performance</group>
+    </groups>
+    <modes inherit="true">
+    </modes>
+  </classification>
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+  
+  <traceability>
+    <requirements>
+      <requirement id=""/>     
+    </requirements>
+  </traceability>
+</pysystest>

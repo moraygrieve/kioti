@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+
+  <description>
+    <title>Stand up a basic local network with nodes using oracle11g and oracle12c (bootstrapped)</title>
+    <purpose><![CDATA[
+Runs a local network with nodes configured to use a selection of the supported database types.
+]]>
+    </purpose>
+  </description>
+
+  <classification>
+    <groups inherit="true">
+      <group>bootstrapped</group>
+    </groups>
+    <modes inherit="false">
+      <mode>ENT-DEFAULT</mode>
+    </modes>
+  </classification>
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+
+  <traceability>
+    <requirements>
+      <requirement id=""/>
+    </requirements>
+  </traceability>
+</pysystest>

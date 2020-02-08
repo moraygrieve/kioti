@@ -1,0 +1,24 @@
+{
+  "defaultPassword": "passw0rd",
+  certificatesStores = {
+      "network-root-truststore" = {
+          file = "./trust-stores/root-trust-store.jks"
+          password = "fo0b4r"
+      }
+      "corda-ssl-trust-store" = {
+          file = "./trust-stores/ssl-trust-store.jks"
+          password = "p4ssw0rd"
+      }
+  }
+  "certificates": {
+    "::CORDA_SSL_ROOT": {},
+    "::CORDA_SSL_IDENTITY_MANAGER": {},
+    "::CORDA_TLS_CRL_SIGNER": {},
+    "::CORDA_SSL_NETWORK_MAP": {},
+    "::CORDA_IDENTITY_MANAGER": {},
+    "::CORDA_ROOT": {},
+    "::CORDA_SUBORDINATE": {},
+    "::CORDA_NETWORK_MAP": {},
+    "::CORDA_SSL_SIGNER": {}
+  }
+}

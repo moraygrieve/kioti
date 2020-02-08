@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+  
+  <description> 
+    <title>ReceiveFlowLoop - check latency of initiateFlow and then receives within a single loop</title>
+    <purpose><![CDATA[
+In this test we make a single call to initateFlow, and then perform a set number of send and receive
+calls. The aim is to report the time for the first receive all, and then stats around all
+subsequent calls.
+]]>
+    </purpose>
+  </description>
+  
+  <classification>
+    <groups inherit="true">
+      <group>performance</group>
+    </groups>
+    <modes inherit="true">
+    </modes>
+  </classification>
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+  
+  <traceability>
+    <requirements>
+      <requirement id=""/>     
+    </requirements>
+  </traceability>
+</pysystest>

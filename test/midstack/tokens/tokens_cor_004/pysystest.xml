@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+
+  <description>
+    <title>Database - check Token CorDapp loading (bootstrapped, azure sql database)</title>
+    <purpose><![CDATA[
+]]>
+    </purpose>
+  </description>
+
+  <classification>
+    <groups inherit="true">
+      <group>bootstrapped</group>
+    </groups>
+    <modes inherit="false">
+      <mode>ENT-DEFAULT</mode>
+    </modes>
+  </classification>
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+
+  <traceability>
+    <requirements>
+      <requirement id=""/>
+    </requirements>
+  </traceability>
+</pysystest>

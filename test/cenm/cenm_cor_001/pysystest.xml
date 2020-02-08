@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+  
+  <description> 
+    <title>PKITool - check trust store exists, needs a password to open, and contains the expected certificates</title>
+    <purpose><![CDATA[
+]]>
+    </purpose>
+  </description>
+  
+  <classification>
+    <groups inherit="true">
+      <group>cenm</group>
+    </groups>
+    <modes inherit="true">
+    </modes>
+  </classification>
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+  
+  <traceability>
+    <requirements>
+      <requirement id=""/>     
+    </requirements>
+  </traceability>
+</pysystest>

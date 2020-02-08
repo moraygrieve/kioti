@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysysdirconfig>
+  <classification>
+        <!-- Modes should be in the format (OS|ENT)-(version|DEFAULT) -->
+        <modes inherit="true">
+            <mode>ENT-DEFAULT</mode>
+            <mode>OS-DEFAULT</mode>
+        </modes>
+  </classification>
+</pysysdirconfig>

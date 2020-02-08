@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+  
+  <description> 
+    <title>PKITool - specify truststore file name and password different to the default password</title>
+    <purpose><![CDATA[
+Uses a local configuration file which overrides the certificatesStores attributes, specifying the name and
+passwords for the network root and SSL truststores.
+]]>
+    </purpose>
+  </description>
+  
+  <classification>
+    <groups inherit="true">
+      <group>cenm</group>
+    </groups>
+    <modes inherit="true">
+    </modes>
+  </classification>
+  
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+  
+  <traceability>
+    <requirements>
+      <requirement id=""/>     
+    </requirements>
+  </traceability>
+</pysystest>

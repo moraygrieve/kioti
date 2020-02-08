@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+  
+  <description> 
+    <title>ReceiveFlowLoopSleep - sends should be non-blocking, whilst receives are blocking via SSH invocation</title>
+    <purpose><![CDATA[
+In this tests the receiver sleeps for a set duration between receive calls, whilst the sender does
+not. As sends should be non-blocking, the send loop should complete significantly faster than the
+receive block.
+]]>
+    </purpose>
+  </description>
+  
+  <classification>
+    <groups inherit="true">
+      <group></group>
+    </groups>
+    <modes inherit="true">
+    </modes>
+  </classification>
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+  
+  <traceability>
+    <requirements>
+      <requirement id=""/>     
+    </requirements>
+  </traceability>
+</pysystest>

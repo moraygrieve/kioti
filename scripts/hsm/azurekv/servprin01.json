@@ -1,0 +1,8 @@
+{
+  "appId": "972a3db2-bc29-472b-8b52-98aa65fcff98",
+  "displayName": "servprin01",
+  "fileWithCertAndPrivateKey": "/home/moraygrieve/tmpos2618xw.pem",
+  "name": "http://servprin01",
+  "password": null,
+  "tenant": "a4be1f2e-2d10-4195-87cd-736aca9b672c"
+}

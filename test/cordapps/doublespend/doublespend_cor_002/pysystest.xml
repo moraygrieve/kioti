@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pysystest type="auto">
+  
+  <description> 
+    <title>Double spend attempt, three notaries and choose a named one</title>
+    <purpose><![CDATA[
+Tests that selection of the Notary by name can be performed when there are multiple notaries in a bootstrapped
+network.
+]]>
+    </purpose>
+  </description>
+  
+  <classification>
+    <groups inherit="true">
+      <group>bootstrapped</group>
+    </groups>
+    <modes inherit="true">
+    </modes>
+  </classification>
+
+  <!-- <skipped reason=""/> -->
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+  
+  <traceability>
+    <requirements>
+      <requirement id=""/>     
+    </requirements>
+  </traceability>
+</pysystest>
